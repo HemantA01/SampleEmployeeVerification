@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12">
+    <div class="col-md-6">
+        <p><h2>Employment Verification Form</h2></p>
+        <p>
+            Enter the Employee Id: <input type="number" id="txtEmpId" placeholder="Enter Employee Id" />
+        </p>
+        <p>
+            Enter the Company Name: <input type="text" id="txtCompanyName" placeholder="Enter Company Name" />
+        </p>
+        <p>
+            Enter the Verification Code: <input type="text" id="txtCode" placeholder="Enter Verification Code" />
+        </p>
+        <br />
+        <button class="btn btn-primary" id="btnSubmit">Submit the form</button>
+        <br />
+        <h2><span id="spnResult"></span></h2>
+    </div>
+    <div class="col-md-6"></div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/EmploymentVerification.js"></script>
